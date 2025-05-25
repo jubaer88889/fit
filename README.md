@@ -1,3 +1,3 @@
 # FITNESS WEBSITE
 this is a demo website made for learning web development.
-<h1>Hello world </h1>
+[visit the website](https://jubaer88889.github.io/fit/)
