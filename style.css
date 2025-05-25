@@ -1,0 +1,991 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  
+}
+
+.navbar{
+    display: flex;
+    margin-left:80px;
+    gap: 50px;
+    padding: 20px;
+
+    & a{
+        text-decoration: none;
+        font-size: 20px;
+        color: #0B0736;
+    }
+
+    & div{
+        display: flex;
+        gap: 10px;
+        border: 1px solid gainsboro;
+        border-radius: 8px;
+        width:140px;
+        padding: 8px;
+        font-size: 2cap; 
+    }
+}
+
+.banner-image{
+    position: absolute;
+    width: 850px;
+    height: 1000px;
+    right: 0;
+    top: 0;
+   
+}
+
+.sec1{
+    margin-left: 150px ;
+    padding: 110px 10px; 
+
+
+& h1{
+  font-family: Verdana;
+    font-size: 90px;
+    color: #0B0736;
+    font-weight: bolder;
+}
+
+& div{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}  
+
+& div p{
+    font-size: 25px;
+    color: #0B0736;
+    
+}
+
+button{
+    background-color: #0B0736;
+    color: #FFFFFF;
+    height: 65px;
+    width: 140px;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 16px ;
+    font-weight: 700;
+    font-family: Arial;
+    cursor: pointer;
+}
+}
+
+.sec2{
+    display: flex;
+    margin: 180px;
+
+& .kola{
+    height: 600px;
+    width: 600px;
+}
+
+ & .details{ 
+    padding: 80px;
+ 
+ & h1{
+    width: 500px;
+    font-size: 61px ;
+    font-weight: bolder;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+} 
+
+& p{
+    color: #888080;
+    width: 550px;
+    font-weight: 500;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+   
+}
+
+
+}
+
+.apple-design{
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    padding: 16px 28px; 
+    background-color: #cce8fd;
+    border-radius: 20px;
+    width: 200px;
+    height: 70px;
+    margin: 20px;
+
+    & img{
+        width: 25px;
+        height: auto;
+    }
+
+    & .text p{
+       margin-left: -15px ;
+       margin-top: -20px ;
+       color: #9393C4;
+       padding-bottom: 0;
+       font-size:12px;
+    }
+
+    & .text h5{
+        
+        color: black;
+        font-size : 18px ;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: -2px;
+     }
+
+}
+
+}
+
+.sec3{
+    position: relative;
+    display: flex;
+    gap: 250px;
+    
+
+
+.sec3-bg{
+    position: absolute;
+     z-index: -1;
+    top: 10%; 
+}
+
+.sec3-left{
+    margin-left: 140px;
+    
+
+& h1{
+    font-size: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    margin-top: -3px;
+    padding-bottom: 70px;
+
+}
+
+.sec3-img{
+    margin-left: 60px;
+    display: flex;
+    
+   
+
+
+    & .div1 img{
+        display: flex;
+        flex-direction: column;
+        height: 280px;
+        width: 190px;
+        padding: 20px;  
+       
+    }
+
+    & .div2{
+        margin-top: 30px;
+
+    } 
+    & img{
+        display: flex;
+        flex-direction: column;
+        height: 280px;
+        width: 190px;
+        padding: 20px;
+         
+    }
+
+}
+
+
+}
+
+.sec3-right{
+    margin-left: -130px;
+
+    & h3{
+        font-size: 40px;
+        font-weight: 550;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #9393C4;
+        margin-top: 100px;
+        margin-left: 100px;
+        width: 400px;
+    }
+
+
+ .details{
+    padding: 100px;
+    margin-bottom: -90px;
+    gap: 30px;
+    display: flex;
+    width: 600px;
+        
+
+    
+
+    & h2{
+        font-size: 28px;
+        font-weight: 600;
+        
+    }
+
+    & p{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 19px;
+        color: #9393c4;
+        font-weight: 550;
+        padding-top: 20px;
+   
+
+                          }
+
+& img{
+    width: 86px;
+    height: 86px;
+    margin-top: -20px;
+}
+
+    }
+}
+}
+
+    /* sec3 end */
+
+    /* sec4 stARt */
+.sec4{
+    display: flex;
+    margin-top: 150px;
+    margin-left: 150px;
+    
+
+    & .sec4-right{
+
+    & h1{
+        font-size: 70px;
+        font-weight: 600;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    & p{
+        color: #808080;
+        font-size: 30px;
+        padding-top: 30px;
+        width: 550px;
+    }
+
+    .apple-design{
+        display: flex;
+        align-items: center;
+        gap: 10px; 
+        padding: 16px 28px; 
+        background-color: #cce8fd;
+        border-radius: 20px;
+        width: 200px;
+        height: 70px;
+        margin-left: 5px;
+        margin-top: 40px;
+    
+        & img{
+            width: 25px;
+            height: auto;
+            
+        }
+    
+        & .text p{
+           margin-left: 3px ;
+           margin-top: -25px ;
+           color: #9393C4;
+           padding-bottom: 2px;
+           font-size:15px;
+        }
+    
+        & .text h5{
+            
+            color: black;
+            font-size : 18px ;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-top: -2px;
+         }
+    
+    } 
+
+}
+
+
+& .sec4-left img{
+    margin-top: -120px;
+    margin-left: 170px;
+    margin-bottom: 100px;
+    height: 580px;
+    width: 580px;
+    
+}
+}
+
+/* section-4 end */
+
+
+/* section-5 start */
+.sec5 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 160px;
+    margin-top: -120px;
+
+}
+
+/* section-5 end */
+
+/* section-+6 start */
+.sec6{
+    display: flex;
+    justify-content: space-between;
+    background-color: #D9F4FF;
+    padding: 10px;
+    border-radius: 60px;
+    margin: 100px;
+    height: 620px;
+    width: auto;
+
+    & .sec6-left{
+        margin-top: 140px;
+        margin-left: 150px;
+
+        & h1{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: 700;
+            font-size: 70px;
+        }
+
+        .apple-design{
+            display: flex;
+            align-items: center;
+            gap: 10px; 
+            padding: 16px 28px; 
+            background-color: #130F49;
+            border-radius: 20px;
+            width: 200px;
+            height: 70px;
+            margin-left: 5px;
+            margin-top: 40px;
+        
+            & img{
+                width: 25px;
+                height: auto;
+                color: white;
+                
+            }
+        
+            & .text{
+                margin-top: 20px;
+                 p{
+               margin-left: 3px ;
+               margin-top: -25px ;
+               color: #93718D;
+               
+               font-size:15px;
+            }
+        
+            &  h5{
+                
+                color: white;
+                font-size : 18px ;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                
+             }
+        
+        } 
+
+    }
+}
+
+& .sec6-right{
+    img{
+        padding-right: 150px;
+    }
+}
+
+}
+
+/* section-6 end */
+
+/* footer part */
+.footer{
+    
+    & p{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px;
+        color: #9393CF;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 16px;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px){
+
+    /* nav start */
+    .navbar {
+        display: flex;
+        margin-left: 2px;
+        gap: 20px;
+        padding: 20px 15px;
+    }
+
+    .navbar a {
+        text-decoration: none;
+        font-size: 15px;
+        color: #0B0736;
+    }
+
+    .navbar div {
+        display: flex;
+        gap: 5px;
+        border: 1px solid gainsboro;
+        border-radius: 8px;
+        width: 110px;
+        padding: 8px;
+        font-size: 15px;
+    }
+
+    .banner-image {
+        position: absolute;
+        width: 250px;
+        height: 400px;
+        left: 180px;
+        top: 0;
+    }
+    /* nav end */
+
+    /* sec1 starts*/
+    .sec1{
+        margin-left: 10px ;
+        padding: 30px 10px; 
+    
+    
+    & h1{
+      font-family: Verdana;
+        font-size: 20px;
+        color: #0B0736;
+        font-weight: bolder;
+    }
+    
+    & div{
+        display: flex;
+        margin-top: 1ch;
+        margin-bottom: px;
+    }  
+    
+    & div p{
+        font-size: 25px;
+        color: #0B0736;
+        
+    }
+
+    & div img{
+        height: 40px;
+        width: 40px;
+        padding: 5px;
+    }
+    
+    button{
+        background-color: #0B0736;
+        color: #FFFFFF;
+        height: 40px;
+        width: 110px;
+        padding: 10px;
+        border-radius: 15px;
+        font-size: 16px ;
+        font-weight: 700;
+        font-family: Arial;
+        cursor: pointer;
+    }
+    }
+    /* sec1 ends */
+
+
+    /* sec2 starts */
+    .sec2{
+        display: flex;
+        margin: 10px;
+    
+    & .kola{
+        height: 200px;
+        width: 200px;
+        margin-top: 40px;
+    }
+    
+     & .details{ 
+        padding: 30px;
+        margin-left: -20px;
+     
+     & h1{
+        width: 200px;
+        font-size: 20px ;
+        font-weight: bolder;
+        padding: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    } 
+    
+    & p{
+        color: #888080;
+        width: 200px;
+        font-weight: 500;
+        font-size: 12px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 10px;
+       
+    }
+
+    
+    }
+
+
+    .apple-design{
+        display: flex;
+        align-items: center;
+        gap: 10px; 
+        padding: 16px 28px; 
+        background-color: #cce8fd;
+        border-radius: 20px;
+        width: 160px;
+        height: 50px;
+        margin-left: 5px;
+    
+        & img{
+            width: 25px;
+            height: auto;
+        }
+    
+        & .text p{
+           margin-left: -10px ;
+           margin-top: -10px ;
+           color: #9393C4;
+           padding-bottom: 0;
+           font-size:10px;
+        }
+    
+        & .text h5{
+            
+            color: black;
+            font-size : 15px ;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-top: -2px;
+         }
+    
+      }
+    }
+
+      /* sec2 ends */
+
+
+      /* sec3 starts */
+      .sec3{
+        gap: 10px;
+         
+     .sec3-bg{
+         width: 260px;
+         height: 450px;
+         top: 10%; 
+      } 
+     
+     .sec3-left{
+         margin-left: 20px; 
+         
+     
+     & h1{
+         font-size: 30px;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+         font-weight: bolder;
+         margin-top: 43px;
+     }
+     
+     .sec3-img{
+         margin-left: 20px;
+         margin-top: -40px;
+         
+         & .div1 img{
+             display: flex;
+             flex-direction: column;
+             height: 150px;
+             width: 120px;
+             padding: 10px; 
+             margin-left: -40px; 
+              
+            
+         }
+     
+         & .div2{
+             margin-top: 30px;
+     
+         } 
+         & img{
+             display: flex;
+             flex-direction: column;
+             height: 150px;
+             width: 120px;
+             padding: 10px; 
+              
+         }
+     
+     
+     }
+     
+    
+     }
+     /* LEFT PART END */
+
+
+
+    /* RIGHT PART STARTS */
+    .sec3-right{
+        margin-left: -90px; 
+       
+    
+        & h3{
+            font-size: 15px;
+            font-weight: 300;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: #9393C4;
+            margin-top: 90px;
+            margin-left: 80px;
+            
+            width: 180px;
+            height: 200px;
+        }
+    
+    
+     .details{
+        padding: 50px;
+        margin-bottom: 40px;
+        margin-top: -20px; 
+        gap: 30px;
+        display: flex;
+        width: 600px;
+            
+    
+        
+    
+        & h2{
+            font-size: 12px;
+            font-weight: 600;
+            margin-top: -100px;
+         margin-left: -20px;
+         }
+
+
+    }
+    & p{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 10px;
+        color: #9393c4;
+        font-weight: 400;
+        padding-top: 10px;
+        margin-left: -20px;
+        height: 100px;
+        width: 100px;
+       }
+
+& img{
+    width: 46px;
+    height: 46px;
+    margin-top: -100px;
+     margin-left: 40px; 
+}
+.details{
+    padding: 50px;
+    margin-bottom: 60px;
+    
+    gap: 30px;
+    display: flex;
+    width: 600px;
+        
+
+    
+
+    & h2{
+        font-size: 12px;
+        font-weight: 600;
+        margin-top: -100px;
+     margin-left: -20px;     
+    }
+
+    & p{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 8px;
+        color: #9393c4;
+        font-weight: 400;
+        padding-top: 10px;
+        margin-left: -20px;
+        height: 100px;
+        width: 100px;
+       }
+       & img{
+        width: 46px;
+        height: 46px;
+        margin-top: -100px;
+         margin-left: 40px; 
+    }
+}
+    }
+}
+
+/* END OF RIGHT SIDE */
+
+
+.sec4{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 30px;
+    
+
+    & .sec4-right{
+
+    & h1{
+        font-size: 20px;
+        font-weight: 600;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    & p{
+        color: #808080;
+        font-size: 12px;
+        padding-top: 10px;
+        width: 150px;
+    }
+
+    .apple-design{
+        display: flex;
+        align-items: center;
+        gap: 10px; 
+        padding: 5px 10px; 
+        background-color: #cce8fd;
+        border-radius: 20px;
+        width: 140px;
+        height: 50px;
+        margin-left: -2px;
+        margin-top: 10px;
+    
+        & img{
+            width: 25px;
+            height: auto;
+        }
+    
+        & .text p{
+           margin-left: 6px ;
+           margin-top: -10px ;
+           color: #9393C4;
+           padding-bottom: 0;
+           font-size:10px;
+        }
+    
+        & .text h5{
+            
+            color: black;
+            font-size : 15px ;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-top: -2px;
+         }
+
+}
+/* apple end */
+
+}
+
+& .sec4-left img{
+    margin-top: -10px;
+    margin-left: 20px;
+    margin-bottom: 80px;
+    height:220px;
+    width: 210px;
+    
+}
+}
+/* sec4 end */
+
+/* sec5 starts */
+.sec5 img{
+    width: 90%;
+    height: auto;
+    padding: 20px 20px;
+    margin: 10px 40px;
+}
+
+/* sec5 ends */
+
+/* sec6 starts */
+.sec6{
+    display: flex;
+    justify-content: space-between;
+    background-color: #D9F4FF;
+    padding: 5px;
+    border-radius: 60px;
+    margin: 10px;
+    height: 350px;
+    width: auto;
+
+    & .sec6-left{
+        margin-top: 50px;
+        margin-left: 20px;
+
+        & h1{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: 700;
+            font-size: 30px;
+        }
+
+        .apple-design{
+            display: flex;
+            align-items: center;
+            gap: 10px; 
+            padding: 5px 10px; 
+            background-color: #130F49;
+            border-radius: 20px;
+            width: 160px;
+            height: 70px;
+            margin-left: -5px;
+            margin-top: 40px;
+        
+            & img{
+                width: 25px;
+                height: auto;
+                color: white;
+                
+            }
+        
+            & .text{
+                margin-top: 15px;
+                 p{
+               margin-left: 3px ;
+               margin-top: -25px ;
+               color: #93718D;
+               
+               font-size:15px;
+            }
+        
+            &  h5{
+                
+                color: white;
+                font-size : 18px ;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                
+             }
+        
+        } 
+
+    }
+}
+
+& .sec6-right{
+    img{
+        width: 90%;
+        height: 300px;
+        margin-top: 80px;
+        margin-left: 20px;
+        padding: 20px;
+    }
+}
+
+}
+
+/* footer */
+.footer{
+    
+    & p{
+        
+        font-size: 10px;
+
+    }
+}
+
+
+
+
+    
+        
+
+    
+    
+
+     
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ } /*media query ends  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
